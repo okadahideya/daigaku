@@ -9,4 +9,6 @@ class User < ApplicationRecord
     validates :name_k
     validates :nickname
   end
+
+  has_many :subjects
 end

@@ -1,3 +1,7 @@
+<%= render "shared/header" %>
+
+<%= link_to '授業管理', schedule_subjects_path, class: 'subject_title' %>
+
 <%= month_calendar do |date| %>
   <%= date.day %>
 <% end %>
